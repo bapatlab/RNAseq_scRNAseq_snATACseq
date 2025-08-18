@@ -1,6 +1,6 @@
 # single-nucleus ATAC-seq
 
-This folder contains the code and python environment to analyze the single-nucleus ATAC-seq data deposited in GSEXXX. Fragmet files were generated from raw fastq files using cellranger-atac count.
+This folder contains the code and R environment to analyze the single-nucleus ATAC-seq data deposited in GSEXXX. Fragmet files were generated from raw fastq files using cellranger-atac count.
 
 ## Files
 - `create_arrow_files_archR.ipynb`: create the arrow files for ArchR
