@@ -1,13 +1,13 @@
-# single-cell RNA sequencing
+# single-nucleus ATAC-seq
 
-This folder contains the code and python environment to analyze the single-cell RNA sequencing data deposited in GSEXXX.
+This folder contains the code and python environment to analyze the single-nucleus ATAC-seq data deposited in GSEXXX. Fragmet files were generated from raw fastq files using cellranger-atac count.
 
 ## Files
-- `initial_analysis.ipynb`: QC, normalization, clustering, annotation, etc.
-- `scrnaseq_environment.yml`: python environment to run the code
+- `create_arrow_files_archR.ipynb`: create the arrow files for ArchR
+- `basic_processing_archR.ipynb`: processing of ArchR files: DARs, UMAP, clustering, annotation, etc.
+- `renv.lock`: R environment lock file for reproducibility.
 
 
 ## Description
 - To reproduce the analysis, download the data from GEO and adjust the path in the notebook to the location of the data.
-- Activate the conda environment (scrnaseq_environment.yml)
-- Run the notebook
+- Activate the R environment using `renv` and run the notebook.
