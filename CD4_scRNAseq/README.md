@@ -1,6 +1,6 @@
 # CD4+ T cell single-cell RNA sequencing
 
-This folder contains the code and python environment to analyze the single-cell RNA sequencing data of sorted CD4+ T cells deposited in GSEXXX and shown in Figure 2, Extended Data Figure 7, and Extended Data Figure 8.
+This folder contains the code and python environment to analyze the single-cell RNA sequencing data of sorted CD4+ T cells deposited in GSE287431 and shown in Figure 2, Extended Data Figure 7, and Extended Data Figure 8.
 
 ## Files
 - `cd4_sorted_analysis.ipynb`: QC, normalization, clustering, annotation, etc.
