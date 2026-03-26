@@ -5,6 +5,7 @@ This folder contains the code and R environment to analyze the bulk RNAseq data 
 ## Files
 - `LFDvsHFD_Ear_bulk_RNA-seq.R`: analysis to create heatmap shown in Figure 3a
 - `bulkRNAseq.ipynb`: analysis to convert Count Tables to a count matrix & create volcano plot (Extended Data Figure 9), heatmap and PCA plot (Extended Data Figure 12)
+- `sample_metadata.csv`: metadata for the samples, showing sample_id, condition, group and replicates
 - `renv.lock`: R environment lock file for reproducibility.
 
 
