@@ -1,10 +1,9 @@
 # bulk RNAseq data 
 
-This folder contains the code and R environment to analyze the bulk RNAseq data deposited in PRJNA1212208. Count tables were generated using TEcount.
+This folder contains the code and R environment to analyze the bulk RNAseq data deposited in PRJNA1212208 and shown in Extended Data Figures 7, 9 and 10. Count tables were generated using TEcount.
 
 ## Files
-- `LFDvsHFD_Ear_bulk_RNA-seq.R`: analysis to create heatmap shown in Figure 3a
-- `bulkRNAseq.ipynb`: analysis to convert Count Tables to a count matrix & create volcano plot (Extended Data Figure 9), heatmap and PCA plot (Extended Data Figure 12)
+- `RNAseq_analysis.ipynb`: processing of RNAseq data
 - `sample_metadata.csv`: metadata for the samples, showing sample_id, condition, group and replicates
 - `renv.lock`: R environment lock file for reproducibility.
 

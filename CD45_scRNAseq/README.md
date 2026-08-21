@@ -1,9 +1,9 @@
 # single-cell RNA sequencing
 
-This folder contains the code and python environment to analyze the single-cell RNA sequencing data deposited in GSE287431.
+This folder contains the code and python environment to analyze the single-cell RNA sequencing data deposited in GSE287431 and shown in Figure 3 and Extended Data Figure 5.
 
 ## Files
-- `initial_analysis.ipynb`: QC, normalization, clustering, annotation, etc.
+- `CD45_analysis.ipynb`: QC, normalization, clustering, annotation, etc.
 - `scrnaseq_environment.yml`: python environment to run the code
 
 

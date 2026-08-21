@@ -1,10 +1,10 @@
 # single-nucleus ATAC-seq
 
-This folder contains the code and R environment to analyze the single-nucleus ATAC-seq data (Figure 4i, j, k and Extended Data Figure 15). Fragmet files were generated from raw fastq files using cellranger-atac count.
+This folder contains the code and R environment to analyze the single-nucleus ATAC-seq data (Figure 4i, j, k and Extended Data Figure 10). Fragmet files were generated from raw fastq files using cellranger-atac count.
 
 ## Files
 - `create_arrow_files_archR.ipynb`: create the arrow files for ArchR
-- `basic_processing_archR.ipynb`: processing of ArchR files: DARs, UMAP, clustering, annotation, etc.
+- `processing_archR.ipynb`: processing of ArchR files: DARs, UMAP, clustering, annotation, etc.
 - `renv.lock`: R environment lock file for reproducibility.
 
 
